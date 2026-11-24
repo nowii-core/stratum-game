@@ -1,0 +1,18 @@
+html,body{margin:0;height:100%;overflow:hidden;font-family:"Trebuchet MS",system-ui,sans-serif;
+  background:linear-gradient(hsl(200 60% 78%),hsl(230 70% 92%));user-select:none;-webkit-user-select:none}
+canvas{display:block;width:100%;height:100%;touch-action:none}
+#score{position:fixed;top:6vh;left:0;right:0;text-align:center;font-size:76px;font-weight:800;color:#fff;
+  text-shadow:0 4px 0 rgba(0,0,0,.14);pointer-events:none}
+#perfect{position:fixed;top:19vh;left:50%;transform:translateX(-50%);font-size:30px;font-weight:800;color:#fff;
+  text-shadow:0 3px 0 rgba(0,0,0,.18);opacity:0;pointer-events:none;letter-spacing:1px}
+#perfect.pop{animation:pop .8s ease-out}
+@keyframes pop{0%{opacity:0;transform:translate(-50%,10px) scale(.8)}
+  20%{opacity:1;transform:translate(-50%,0) scale(1.1)}
+  100%{opacity:0;transform:translate(-50%,-24px) scale(1)}}
+#card{position:fixed;left:50%;bottom:11vh;transform:translateX(-50%);background:#fff;border-radius:22px;
+  padding:22px 34px;text-align:center;box-shadow:0 14px 40px rgba(30,40,90,.22);transition:opacity .3s;
+  color:#2b3350;min-width:220px;pointer-events:none}
+#card.hidden{opacity:0}
+#card h1{margin:0 0 6px;font-size:28px}
+#card p{margin:4px 0;font-size:16px;color:#5b6486}
+#card .go{margin-top:12px;font-weight:700;color:#2b3350}
