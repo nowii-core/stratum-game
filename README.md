@@ -43,11 +43,7 @@ Every mistimed drop shears off the protruding section and narrows the active blo
 
 ## Preview
 
-<p align="center">
-  <a href="https://nowii-core.github.io/stratum-game/">
-    <img src="preview.png" width="85%" alt="Stratum Gameplay Preview" />
-  </a>
-</p>
+<a href="https://nowii-core.github.io/stratum-game/"><img src="preview.png" width="85%" alt="Stratum Gameplay Preview" /></a>
 
 > **Live Demo:** [**nowii-core.github.io/stratum-game/**](https://nowii-core.github.io/stratum-game/)
 
